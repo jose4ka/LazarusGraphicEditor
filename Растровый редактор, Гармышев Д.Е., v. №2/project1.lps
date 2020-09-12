@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="54"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="garmgraphicredactor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormGarmDraw"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="GarmGraphicRedactor"/>
+        <IsVisibleTab Value="True"/>
+        <UsageCount Value="54"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4456"/>
+        <CursorPos Y="4474"/>
+        <UsageCount Value="7"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5359"/>
+        <CursorPos Y="5376"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1461"/>
+        <CursorPos Y="1478"/>
+        <UsageCount Value="7"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2081"/>
+        <CursorPos Y="2099"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\include\winapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1733"/>
+        <CursorPos Y="1753"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32winapi.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1595"/>
+        <CursorPos Y="1614"/>
+        <UsageCount Value="7"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3280"/>
+        <CursorPos Y="3306"/>
+        <UsageCount Value="7"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\include\scrollingwincontrol.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos Y="35"/>
+        <UsageCount Value="7"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\include\controlscrollbar.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="119"/>
+        <CursorPos Y="127"/>
+        <UsageCount Value="7"/>
+      </Unit10>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

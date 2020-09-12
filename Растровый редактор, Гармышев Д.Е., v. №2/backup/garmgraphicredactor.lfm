@@ -1,0 +1,165 @@
+object FormGarmDraw: TFormGarmDraw
+  Left = 154
+  Height = 826
+  Top = 114
+  Width = 1603
+  Caption = 'FormGarmDraw'
+  ClientHeight = 806
+  ClientWidth = 1603
+  Color = clWhite
+  KeyPreview = True
+  Menu = GarmMainMenu
+  OnCreate = GarmFormCreate
+  OnKeyDown = GarmKeyDown
+  OnKeyUp = GarmKeyUp
+  OnMouseDown = GarmMouseDown
+  OnMouseEnter = GarmMouseEnter
+  OnMouseLeave = GarmMouseLeave
+  OnMouseMove = GarmMouseMove
+  OnMouseUp = GarmMouseUp
+  OnMouseWheelDown = GarmMouseWheelDown
+  OnMouseWheelUp = GarmMouseWheelUp
+  LCLVersion = '2.0.6.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 280
+    Top = 208
+    Width = 200
+    ClientHeight = 280
+    ClientWidth = 200
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 0
+    object CBtnGarmColorBrush: TColorButton
+      Left = 16
+      Height = 25
+      Top = 136
+      Width = 75
+      BorderWidth = 2
+      ButtonColorSize = 16
+      ButtonColor = clBlack
+    end
+    object Label1: TLabel
+      Left = 16
+      Height = 15
+      Top = 112
+      Width = 60
+      Caption = 'Цвет кисти'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 16
+      Height = 15
+      Top = 176
+      Width = 167
+      Caption = 'Ширина кисти/ластика/линии'
+      ParentColor = False
+    end
+    object CBtnGarmColorBackground: TColorButton
+      Left = 8
+      Height = 25
+      Top = 40
+      Width = 75
+      BorderWidth = 2
+      ButtonColorSize = 16
+      ButtonColor = clWhite
+      OnColorChanged = CBtnGarmColorBackgroundColorChanged
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 15
+      Top = 16
+      Width = 66
+      Caption = 'Цвет холста'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Height = 15
+      Top = 88
+      Width = 130
+      Caption = 'Для режима рисования'
+      ParentColor = False
+    end
+    object BtnGarmClearBackground: TButton
+      Left = 96
+      Height = 25
+      Top = 40
+      Width = 96
+      Caption = 'Очистить фон'
+      OnClick = BtnGarmClearBackgroundClick
+      TabOrder = 0
+    end
+    object SEGarmBrushSize: TSpinEdit
+      Left = 16
+      Height = 23
+      Top = 200
+      Width = 50
+      Enabled = False
+      MinValue = 1
+      TabOrder = 1
+      Value = 1
+    end
+  end
+  object BtnGarmChangeDrawErase: TButton
+    Left = 16
+    Height = 25
+    Top = 448
+    Width = 75
+    Caption = 'Рисование'
+    Enabled = False
+    OnClick = BtnGarmChangeDrawEraseClick
+    TabOrder = 1
+  end
+  object GarmMainMenu: TMainMenu
+    object MIGarmPointsDraw: TMenuItem
+      Caption = 'Рисование точками'
+      OnClick = MIGarmPointsDrawClick
+    end
+    object MIGarmLinesDraw: TMenuItem
+      Caption = 'Рисование прямых'
+      OnClick = MIGarmLinesDrawClick
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Простое рисование'
+      object MIGarmSimpleDraw: TMenuItem
+        Caption = 'Рисование'
+        OnClick = MIGarmSimpleDrawClick
+      end
+      object MIGarmSimpleErase: TMenuItem
+        Caption = 'Стирание'
+        OnClick = MIGarmSimpleEraseClick
+      end
+    end
+    object MIGarmGeometryDraw: TMenuItem
+      Caption = 'Рисование резиновых фигур'
+      object MIGarmGeometryCircleDraw: TMenuItem
+        Caption = 'MIGarmGeometryCircleDraw'
+        OnClick = MIGarmGeometryCircleDrawClick
+      end
+      object MIGarmGeometryEllipseDraw: TMenuItem
+        Caption = 'MIGarmGeometryEllipseDraw'
+        OnClick = MIGarmGeometryEllipseDrawClick
+      end
+      object MIGarmGeometrySquareDraw: TMenuItem
+        Caption = 'MIGarmGeometrySquareDraw'
+        OnClick = MIGarmGeometrySquareDrawClick
+      end
+      object MIGarmGeometryRectangleDraw: TMenuItem
+        Caption = 'MIGarmGeometryRectangleDraw'
+        OnClick = MIGarmGeometryRectangleDrawClick
+      end
+    end
+    object MIGarmBitDraw: TMenuItem
+      Caption = 'MIGarmBitDraw'
+    end
+    object MIGarmSmileDraw: TMenuItem
+      Caption = 'MIGarmSmileDraw'
+      OnClick = MIGarmSmileDrawClick
+    end
+    object MIGarmSelectedOption: TMenuItem
+      Caption = 'MIGarmSelectedOption'
+      Enabled = False
+    end
+  end
+end
